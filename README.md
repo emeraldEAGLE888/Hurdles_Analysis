@@ -30,7 +30,9 @@ Throughout my analysis, several tools and libraries were utilized in order to co
 ## How do the race strategies of Warholm, Benjamin, and dos Santos differ over the course of a race?
 
 ### Generating Visualization
+```python
 
+```
 ### Result
 
 ### Insights
@@ -38,7 +40,9 @@ Throughout my analysis, several tools and libraries were utilized in order to co
 ## Which part of the 400 meter hurdle race most strongly predicts final results?
 
 ### Generating Visualization
+```python
 
+```
 ### Result
 
 ### Insights
@@ -46,7 +50,9 @@ Throughout my analysis, several tools and libraries were utilized in order to co
 ## What varying stride patterns are used by these athletes and how do they affect their performance?
 
 ### Generating Visualization
+```python
 
+```
 ### Result
 
 ### Insights
@@ -54,7 +60,9 @@ Throughout my analysis, several tools and libraries were utilized in order to co
 ## How has each athlete's race strategy and overall time evolved over their careers?
 
 ### Generating Visualization
+```python
 
+```
 ### Result
 
 ### Insights

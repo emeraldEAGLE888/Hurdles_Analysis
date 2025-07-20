@@ -7,11 +7,13 @@ The first section of this project deals with the analysis of hurdle races using 
 - **Seaborn Library**: For advanced data visualization techniques
 - **Jupyter Notebooks**: Used to run Python Scripts and create analyses
 - **Google Sheets**: To organize data to be read into Python.
-
+# Terms Used
+- The majority of the data analyzed focuses on hurdle splits - splits taken from each athlete when their foot touches down off of each of the 10 hurdles in the race. These splits are referred to with H and the number of the hurdle (e.g. `H1`). The last split, `Run-in`, is the time it takes for the athlete to cross the finish line off of hurdle 10.
+- For certain analyses, hurdle splits are arranged into phases: the start phase, middle phase, and end phase. The start phase encompasses splits H1 to H4 (representing the initial portion of the race where athletes settle into a rhythm). The middle phase includes splits H5 to H7 (the part of the race where athletes maintain their rhythm). The end phase includes splits H8 to Run-in (the last portion of the race where athletes feel the most late-race fatigue).
 # Analysis
 
 ## How do the race strategies of Warholm, Benjamin, and dos Santos differ over the course of a race?
-
+Although these three men are the clear frontrunners in the history of the 400m hurdles, they interestingly take vastly different approaches to pacing the race. Through analysis of splits taken at each hurdle in the race, these visualizations show the difference in race strategy for Warholm, Benjamin, and dos Santos.
 ### Generating Visualizations
 ### 1: Hurdle Splits
 ```python
@@ -49,8 +51,27 @@ plt.show()
 ![Phases Distribution Graph](/Images/phases_distribution.png)
 
 ## Insights
-
+### Hurdle Splits
+- **Graph 1 (Typical Race Splits)** gives an overall view of race splits:
+    - While all three men follow the same general path, getting increasingly slower as the race continues, Warholm has the fastest hurdle split from H1-H5.
+    - Starting at H6, Benjamin holds the fastest hurdle splits until the end of the race.
+- **Graph 2 (Time Difference to dos Santos)** shows these trends more clearly:
+    - Using dos Santos as a benchmark, Warholm explodes out of the blocks, building a gap of 0.2 seconds on dos Santos by H3 and extending it to as much as 0.4 seconds by H8.
+    - However, over the last two hurdles and the run in to the finish line, Warholm loses over 0.1 as dos Santos closes.
+    - In contrast, Benjamin consistently loses ground on dos Santos in the first half, peaking at around a 0.2 second deficit at H5.
+    - Through the second half of the race, Benjamin gains about 0.06 seconds on dos Santos at each hurdle, finishing hard to stay about 0.15 seconds ahead of dos Santos by the end of the race.
+### Hurdle Phases
+- **Graph 3 (Phases Distribution)** demonstrates not just average times but also each racer's consistency:
+    - **Start Phase**:
+        - This graph corroborates the last two, showing Warholm's tendency to get out quick but also his consistency compared to the other two athletes.
+        - Benjamin is generally the most variable in his start and the slowest.
+    - **Middle Phase**:
+        - All three athletes have medians within a small range, with dos Santos being the most consistent athlete.
+    - **End Phase**:
+        - All three athletes experience a notable increase in times, but Benjamin stays the strongest while Warholm suffers from his early-race strength.
+        - Benjamin is the most variable (although he is still significantly ahead of the other two athletes) while dos Santos is again the most consistent through this phase.
 ## Which part of the 400 meter hurdle race most strongly predicts final results?
+Various coaches in the 400 meter hurdles have varying opinions on the most vital section of the race. While the last essential question demonstrated the success of different race strategies, this section aims to view race pacing from a general standpoint. Through a statistical analysis, it is possible to empirically determine the most important part of the race by calculating its correlation to the final time.
 
 ### Generating Visualizations
 ### 1: Individual Correlations
@@ -79,8 +100,29 @@ plt.show()
 ![R Squared Graphs (Summary)](/Images/split_total_correlation_summary.png)
 
 ## Insights
+- **General Trend**: Scrolling through **Graph 1 (Split Time Correlations)**, R squared values increase, peaking around the end phase of the race. This demonstrates how the latter half of the race plays a more significant role in final performance compared to the first half.
+- **Strongest Predictors**: **Graph 2 (Split Correlations Summary)** summarizes all the R squared values, with the Hurdle 8 split revealed to have the strongest correlation to final time (R squared value: `0.562`). Following it are Hurdles 9 and 7, cementing this late-race portion as the most vital for success in this race. 
+- **Other Notable Points**
+    - The Run in split has the weakest correlation of all splits. This may be due to several factors, like the lack of mental pacing, technique breakdown, and the inclusion of heat and semifinal data (where athletes usually slow down before the finish line).
+    - Hurdle 10 has a notably weaker correlation than the other hurdle splits in the second half, likely for the same reasons as the run in.
 
 ## What varying stride patterns are used by these athletes and how do they affect their performance?
+Adding to the differing race strategies of each athlete are their stride patterns. The number of strides taken between each hurdle is crucial to race planning and rhythm over the barriers, and as the race progresses, stride count generally increases. 
+The three athletes covered in this project all have made use of various stride patterns over their careers, but have settled into their own unique patterns, reflecting their overall race strategy and capability as an athlete.
+The following visualization considers normal vs. changed stride patterns - this compares each athlete's times when using their primary stride pattern vs. other races when they choose an alternate pattern.
+
+
+- **Benjamin Normal Pattern**: 20 steps to H1, 13 steps to each hurdle through H10
+
+Benjamin's normal pattern is often considered the gold standard of the 400 meter hurdles. Holding the same number of steps through the whole race is indicative of consistency and strength. 
+
+- **Warholm Normal Pattern**: 20 steps to H1, 13 steps to each hurdle through H9, 15 steps to H10
+
+Warholm's pattern follows Benjamin until hurdle 10: he switches to 15 steps on the last hurdle, likely as a result of fatigue from his strategy of going fast in the start phase.
+
+- **dos Santos Normal Pattern**: 20 steps to H1, 13 steps to H2, 12 steps to each hurdle through H6, 13 steps to each hurdle through H10 
+
+dos Santos's height (6' 7") allows him to comfortably 12-step hurdles in the middle phase of the race, allowing for a smoother run in hurdles 3-6. However, using an even number of steps requires alternating of the lead leg, which is technically challenging to do consistently for most hurdlers with a dominant leg.
 
 ### Generating Visualization
 ### Stride Pattern Time Distribution
@@ -93,9 +135,13 @@ plt.show()
 ### Result
 ![Year Over Year Time and Stride Pattern](/Images/normal_vs_changed_stride_distributions.png)
 ## Insights
-
+- **Warholm** is the fastest and most consistent when he hits his stride pattern while the other two athletes's performances vary more, with Benjamin's times being extremely variable despite using his normal pattern. 
+- When normal stride patterns are used, Warholm's median time is the fastest, followed by Benjamin and dos Santos, which is reflective of their personal best times. 
+- **dos Santos** is the fastest and most consistent when he alters his stride pattern compared to the other two athletes. 
+- When athletes' stride patterns are altered, either by fitness, race conditions, or conscious decision, dos Santos comes out on top, with Benjamin following and Warholm in last. 
+- Overall, **dos Santos** handles a changed stride pattern the best, only experiencing about a 0.2 median increase in total time. This may be due to his flexibility over the barriers and ability to alternate.
 ## How has each athlete's race strategy and overall time evolved over their careers?
-
+Background (UNDER CONSTRUCTION)
 ### Generating Visualizations
 ### 1: Year Over Year Time and Stride Pattern
 ```python
@@ -121,6 +167,7 @@ plt.show()
 ![Year Over Year Phases](/Images/phases_yoy.png)
 
 ## Insights
+UNDER CONSTRUCTION
 
 ## Overall Lessons
 See full analysis in [main README](C:/Users/sunse/Hurdles_Analysis/README.md).

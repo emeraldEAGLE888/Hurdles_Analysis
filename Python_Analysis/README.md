@@ -189,7 +189,7 @@ plt.show()
 
 ## Insights
 **Graph 4.1 (Average Time)**
-- Each athlete has peaked in a different year: dos Santos's fastest year to date is 2022 (where he won the World Championships), Warholm experienced his fastest season in 2023 (where he was far more consistent than his record-breaking 2021 season), and Benjamin's times are still on a downward trend, hitting his best average time in 2024 (coinciding with his Olympic gold in Paris).
+- Each athlete has peaked in a different year: dos Santos's fastest year to date is 2022 (where he won the World Championships), Warholm experienced his fastest average season in 2023 (where he was far more consistent than his record-breaking 2021 season), and Benjamin's times are still on a downward trend, hitting his best average time in 2024 (coinciding with his Olympic gold in Paris).
 - However, because not every race from each season is included in the data provided, this graph does not provide a complete picture of each athlete's progression.
 
 **Graph 4.1 (Stride Pattern Consistency)**
@@ -211,7 +211,7 @@ plt.show()
     - Benjamin has dominated the end phase for 7 years, peaking in 2021 where he attempted to chase down Warholm at the Tokyo Olympics. 
     - dos Santos has been somewhat inconsistent with his end phase but peaked in 2022.
 - **Phases Trend**:
-    - The earlier phases of the race meaningfully affect the later ones. Although all three athletes showed some kind of downward trend in their start and middle phases throughout the years, their end phases have been much less consistent. One example of this is Rai Benjamin in 2024: while his start and middle phases had dropped drastically over the years before, his end phase average was a far cry from his closing strength in 2021. 
+    - There is a clear tradeoff between the phases of the race: energy allocated to a faster start potentially compromises the finish. Although all three athletes showed some kind of downward trend in their start and middle phases throughout the years, their end phases have been much less consistent. One example of this is Rai Benjamin in 2024: while his start and middle phases showed dramatic improvements, his end phase average was a far cry from his closing strength in 2021. 
 
 ## Overall Lessons
 See full analysis in [main README](C:/Users/sunse/Hurdles_Analysis/README.md).

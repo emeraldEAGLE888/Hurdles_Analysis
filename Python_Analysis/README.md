@@ -1,7 +1,8 @@
-# Python Analysis Overview
+# Statistical Analysis with Python
+# Overview
 The first section of this project deals with the analysis of hurdle races using Python. By leveraging the comprehensive libraries that Python has to offer, the visualizations created provide clear insights on the essential questions listed in the main README. 
 # Tools/Skills Used
-- **Python**: Backbone of project; used for data cleanup, reading and transformation
+- **Python**: Backbone of analysis; used for basic data cleanup, reading and transformation
 - **Pandas Library**: For data analysis
 - **Matplotlib Library**: For data visualization
 - **Seaborn Library**: For advanced data visualization techniques
@@ -135,13 +136,15 @@ plt.show()
 ### Result
 ![Year Over Year Time and Stride Pattern](/Images/normal_vs_changed_stride_distributions.png)
 ## Insights
-- **Warholm** is the fastest and most consistent when he hits his stride pattern while the other two athletes's performances vary more, with Benjamin's times being extremely variable despite using his normal pattern. 
-- When normal stride patterns are used, Warholm's median time is the fastest, followed by Benjamin and dos Santos, which is reflective of their personal best times. 
-- **dos Santos** is the fastest and most consistent when he alters his stride pattern compared to the other two athletes. 
-- When athletes' stride patterns are altered, either by fitness, race conditions, or conscious decision, dos Santos comes out on top, with Benjamin following and Warholm in last. 
-- Overall, **dos Santos** handles a changed stride pattern the best, only experiencing about a 0.2 median increase in total time. This may be due to his flexibility over the barriers and ability to alternate.
+- **With Normal Pattern**
+    - **Warholm** is the fastest and most consistent when he hits his stride pattern while the other two athletes's performances vary more, with Benjamin's times being extremely variable despite using his normal pattern. 
+    - When normal stride patterns are used, Warholm's median time is the fastest, followed by Benjamin and dos Santos, which is reflective of their personal best times. 
+- **With Changed Pattern**
+    - **dos Santos** is the fastest and most consistent when he alters his stride pattern compared to the other two athletes. 
+    - When athletes' stride patterns are altered, either by fitness, race conditions, or conscious decision, dos Santos comes out on top, with Benjamin following and Warholm in last. 
+- Overall, **dos Santos** is affected the least by a change in stride pattern, only experiencing about a 0.2 median increase in total time. This may be due to his flexibility over the barriers and ability to alternate.
 ## How has each athlete's race strategy and overall time evolved over their careers?
-Background (UNDER CONSTRUCTION)
+Although the three men included in this analysis are still in the peak of their time as athletes, their careers started in different ways, shaping their experience and strategy as they improved. Warholm first gained global attention with his win at the 2017 World Championships in 48.35. Benjamin rose to stardom in the NCAA, setting a collegiate record of 47.02 in 2018. dos Santos, the youngest of the three, was not well known until early 2021, when he broke into the top 25 400 meter hurdlers of all time with a 47.57 in May. As each athlete improved their career path, so did their races. This question aims to understand how each athlete's race strategy has evolved over the years and how it has benefited their performances.
 ### Generating Visualizations
 ### 1: Year Over Year Time and Stride Pattern
 ```python
@@ -167,7 +170,19 @@ plt.show()
 ![Year Over Year Phases](/Images/phases_yoy.png)
 
 ## Insights
-UNDER CONSTRUCTION
+**Average Time (Graph 1)**
+- Insight
+- Insight
+
+**Stride Pattern Consistency (Graph 1)**
+- Insight
+- Insight
+
+**Phases (Graph 2)**
+- Insight
+- Insight
+
+ADD CAPTIONS TO ALL GRAPHS IN ITALICS (TO BE DONE)
 
 ## Overall Lessons
 See full analysis in [main README](C:/Users/sunse/Hurdles_Analysis/README.md).

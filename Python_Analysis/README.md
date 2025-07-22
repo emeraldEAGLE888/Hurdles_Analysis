@@ -64,7 +64,7 @@ plt.show()
     - Starting at H6, Benjamin holds the fastest hurdle splits until the end of the race.
 - **Graph 1.2 (Time Difference to dos Santos)** shows these trends more clearly:
     - Using dos Santos as a benchmark, Warholm explodes out of the blocks, building a gap of 0.2 seconds on dos Santos by H3 and extending it to as much as 0.4 seconds by H8.
-    - However, over the last two hurdles and the run in to the finish line, Warholm loses over 0.1 as dos Santos closes.
+    - However, over the last two hurdles and the run in to the finish line, Warholm loses over 0.1 seconds as dos Santos closes.
     - In contrast, Benjamin consistently loses ground on dos Santos in the first half, peaking at around a 0.2 second deficit at H5.
     - Through the second half of the race, Benjamin gains about 0.06 seconds on dos Santos at each hurdle, finishing hard to stay about 0.15 seconds ahead of dos Santos by the end of the race.
 ### Hurdle Phases
@@ -214,4 +214,22 @@ plt.show()
     - There is a clear tradeoff between the phases of the race: energy allocated to a faster start potentially compromises the finish. Although all three athletes showed some kind of downward trend in their start and middle phases throughout the years, their end phases have been much less consistent. One example of this is Rai Benjamin in 2024: while his start and middle phases showed dramatic improvements, his end phase average was a far cry from his closing strength in 2021. 
 
 ## Overall Lessons
-See full analysis in [main README](C:/Users/sunse/Hurdles_Analysis/README.md).
+### 1. How do the race strategies of Warholm, Benjamin, and dos Santos differ over the course of a race?
+- **Karsten Warholm** is the **fastest and most consistent starter**, but struggles in later stages of the race (Hurdle 9 to finish)
+- **Rai Benjamin** takes a conservative approach through the middle of the race before **closing strong**
+- **Alison dos Santos** takes the middle ground, running a race that is **consistently solid** throughout
+### 2. Which part of the 400 meter hurdle race most strongly predicts final results?
+- The second half of the race has a much higher correlation to final time than the first half, with **Hurdle 8** having the highest correlation, highlighting the importance of this section in top performances
+- The last 75 meters of the race (Hurdle 10 to finish) are **significantly less important** to performance than the rest of the second half due to technical and physical breakdowns
+### 3. What varying stride patterns are used by these athletes and how do they affect their performance?
+- All three athletes use different stride patterns that suit their **individual needs**
+    - Warholm's **15 steps to Hurdle 10** show his late-race fatigue from starting quickly
+    - Benjamin's **13 steps the whole way** reveal his commitment to maintaining speed
+    - dos Santos' **12-stepping** technique reflects his stature and adaptability
+- **Warholm** is the most negatively affected by a changed pattern while **dos Santos** is mostly unaffected when his pattern changes
+### 4. How has each athlete's race strategy and overall time evolved over their careers?
+- Each athlete has seen a relative trend of improvement in **overall time** but they have all peaked in different years
+- **Stride pattern consistency** also improved for all three athletes, especially in seasons with better performances
+- All athletes' **start phase** and **middle phase** average times have gone down with total time but **end phase** averages are less consistent, rising as a result of early-race time drops
+
+See further analysis and conclusion in [main README](C:/Users/sunse/Hurdles_Analysis/README.md).

@@ -22,3 +22,16 @@ The second page of this dashboard delves into the specific statistics of one ath
 
 ## Further Analysis
 Although the vast majority of the visualizations in this dashboard referenced existing Python visualizations that already been created, a few Power BI graphs led to further insights on each athlete's strengths.
+
+Specifically, the **Split to Total Time Correlations** graph on the **Athlete Focus** page was created as an overall graph in Python with no ability to sort by athlete. When this data is filtered by athlete, each athlete's consistency throughout the race becomes clear.
+
+### Karsten Warholm
+![Warholm Split Correlations](/Images/correlations_warholm.png)
+
+
+### Rai Benjamin
+![Benjamin Split Correlations](/Images/correlations_benjamin.png)
+
+
+### Alison dos Santos
+![dos Santos Split Correlations](/Images/correlations_dossantos.png)

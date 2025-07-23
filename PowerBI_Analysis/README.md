@@ -7,6 +7,4 @@ The first section of this project deals with the analysis of hurdle races using 
 - **Implicit Measures and Aggregations**: Calculated measures like `X` and `Y` to make build process more efficient.
 - **Charts/Other Visualizations**: Under construction!
 
-# Dashboard Build Process
-
 # Dashboard Features

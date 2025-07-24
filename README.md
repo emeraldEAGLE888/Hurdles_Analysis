@@ -3,7 +3,7 @@ This project examines the race strategies and career paths of the three greatest
 
 This project includes several detailed visualizations created with Python libraries as well as an interactive dashboard containing these visualizations created with Power BI.
 
-All of the data for this project was sourced from [Athlete First](athletefirst.org), a site dedicated to providing sprint splits and hurdle touchdown times as resources for athletes and coaches. The file I referenced can be found online [here](https://www.athletefirst.org/wp-content/uploads/2025/06/Mens-400m-Hurdles-by-athlete-20250520.pdf).
+All of the data for this project was sourced from [Athlete First](athletefirst.org), a site dedicated to providing sprint splits and hurdle touchdown times as resources for athletes and coaches. The file I referenced can be found online [here](https://www.athletefirst.org/wp-content/uploads/2025/06/Mens-400m-Hurdles-by-athlete-20250520.pdf). Data was last updated in May of 2025.
 # Background
 The 400 meter hurdles is widely considered to be one of the most difficult, if not the hardest, events in the sport of track and field. Athletes competing in the 400 meter hurdles face the event's unique mixture of speed, endurance, and hurdle technique. Until 2021, the world record in this event on the men's side stood at 46.78, set by Kevin Young of the United States at the 1992 Summer Olympics. In the span of five weeks, however, three men would go on to decimate the nearly 29-year-old record in a fashion that no other track event had seen before. 
 

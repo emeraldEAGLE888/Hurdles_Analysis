@@ -95,9 +95,9 @@ for i, column in enumerate(all_columns):
 plt.show()
 ```
 ### Result
-![R Squared Graphs (Individual)](/Images/split_total_correlations.png)
+![R² Graphs (Individual)](/Images/split_total_correlations.png)
 
-*Graph 2.1: All hurdle split to total time correlations displayed with trendline. R squared values are indicated. Opacity of trendlines are proportional to respective R squared values.*
+*Graph 2.1: All hurdle split to total time correlations displayed with trendline. R² values are indicated. Opacity of trendlines are proportional to respective R² values.*
 
 ### 2: Correlation Summary
 ```python
@@ -106,13 +106,13 @@ plt.show()
 ```
 
 ### Result
-![R Squared Graphs (Summary)](/Images/split_total_correlation_summary.png)
+![R² Graphs (Summary)](/Images/split_total_correlation_summary.png)
 
 *Graph 2.2: Correlation summary of each hurdle split time sorted from most to least correlated to final time.*
 
 ## Insights
-- **General Trend**: Scrolling through **Graph 2.1 (Split Time Correlations)**, R squared values increase, peaking around the end phase of the race. This demonstrates how the latter half of the race plays a more significant role in final performance compared to the first half.
-- **Strongest Predictors**: **Graph 2.2 (Split Correlations Summary)** summarizes all the R squared values, with the Hurdle 8 split revealed to have the strongest correlation to final time (R squared value: `0.562`). Following it are Hurdles 9 and 7, cementing this late-race portion as the most vital for success in this race. 
+- **General Trend**: Scrolling through **Graph 2.1 (Split Time Correlations)**, R² values increase, peaking around the end phase of the race. This demonstrates how the latter half of the race plays a more significant role in final performance compared to the first half.
+- **Strongest Predictors**: **Graph 2.2 (Split Correlations Summary)** summarizes all the R² values, with the Hurdle 8 split revealed to have the strongest correlation to final time (R² value: `0.562`). Following it are Hurdles 9 and 7, cementing this late-race portion as the most vital for success in this race. 
 - **Other Notable Points**
     - The Run in split has the weakest correlation of all splits. This may be due to several factors, like the lack of mental pacing, technique breakdown, and the inclusion of heat and semifinal data (where athletes usually slow down before the finish line).
     - Hurdle 10 has a notably weaker correlation than the other hurdle splits in the second half, likely for the same reasons as the run in.

@@ -57,7 +57,7 @@ Throughout this project, several tools and libraries were utilized in order to c
 
 ## From Power BI
 ![Main Dashboard](/Images/hurdle_dash_page1.png)
-### Race and Split Consistencys
+### Race and Split Consistency
 - **Warholm** is incredibly consistent in his start as well as the last third of his race, but not very adaptable.
 - **Benjamin**'s strength lies in the middle of his race and his start has almost no effect on his final time.
 - **dos Santos** relies on the first half of the race manages to adapt under pressure despite his position in the race.

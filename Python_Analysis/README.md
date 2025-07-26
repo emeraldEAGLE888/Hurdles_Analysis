@@ -77,6 +77,7 @@ plt.show()
     - **End Phase**:
         - All three athletes experience a notable increase in times, but Benjamin stays the strongest while Warholm suffers from his early-race strength.
         - Benjamin is the most variable (although he is still significantly ahead of the other two athletes) while dos Santos is again the most consistent through this phase.
+        - This is especially curious because Benjamin typically uses a 13-step pattern through the entire race, while dos Santos switches between 12-stepping and 13-stepping. Here, varying your steps more often is shown to actually result in more consistent splits.
 ## Which part of the 400 meter hurdle race most strongly predicts final results?
 Various coaches in the 400 meter hurdles have varying opinions on the most vital section of the race. While the last essential question demonstrated the success of different race strategies, this section aims to view race pacing from a general standpoint. Through a statistical analysis, it is possible to empirically determine the most important part of the race by calculating its correlation to the final time.
 
@@ -232,4 +233,4 @@ plt.show()
 - **Stride pattern consistency** also improved for all three athletes, especially in seasons with better performances
 - All athletes' **start phase** and **middle phase** average times have gone down with total time but **end phase** averages are less consistent, rising as a result of early-race time drops
 
-See further analysis and conclusion in [main README](C:/Users/sunse/Hurdles_Analysis/README.md).
+See summary of analysis and conclusion in **[main README](C:/Users/sunse/Hurdles_Analysis/README.md)**.

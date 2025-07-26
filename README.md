@@ -18,24 +18,58 @@ Below are the overarching questions answered through this project's analysis:
 4. How has each athlete's race strategy and overall time evolved over their careers?
 # Tools/Skills Used
 Throughout this project, several tools and libraries were utilized in order to complete analysis more efficiently, generate complex visualizations, and improve usability:
-- **Statistical Analysis with Python**
+- **Part 1 - Statistical Analysis with Python**
     - Python
     - Pandas Library
     - Matplotlib Library
     - Seaborn Library
     - Jupyter Notebooks
     - Google Sheets
-- **Interactive Dashboard with Power BI**
+- **Part 2 - Interactive Dashboard with Power BI**
     - Dashboard Layout/Design
     - Power Query (ETL/Data Cleanup)
+    - Data Modeling
+    - DAX Language
     - Implicit Measures and Aggregations
     - Charts
 
 - **Visual Studio Code**: Used to execute Python scripts
 - **Github**: Used for version control and to share the analysis publicly
 
-# Lessons
+# Overall Findings
+## From Python Analysis
+![Year Over Year Phases](/Images/phases_yoy.png)
+*Selected graph from statistical analysis showing yearly trends in phase time.*
 
-# Sources of Error
+### Race Strategy/Step Patterns
+- **Warholm** goes out the fastest, **Benjamin** closes the quickest, and **dos Santos** runs a well-balanced race.
+- **Benjamin** is the most volatile in race splits while **dos Santos** is the most consistent.
+- All three athletes use a different step pattern but **dos Santos** is the least affected by switching his steps during a race.
+
+### Overall Race Tactics
+- **Hurdles 7, 8, and 9** are the most vital sections of the race and fast splits here often mean fast final times.
+- The race is not decided by the start or finish, as **Hurdles 1, 2, 3, and the run in** do not correlate with final performance.
+
+### Yearly Progression
+- Each athlete has seen a significant decrease in **start and middle phases**, but have struggled to decrease their time in the **end phase**.
+
+**View the full analysis and project in the [Python Analysis README](Python_Analysis/README.md)**.
+
+## From Power BI
+![Main Dashboard](/Images/hurdle_dash_page1.png)
+### Race and Split Consistencys
+- **Warholm** is incredibly consistent in his start as well as the last third of his race, but not very adaptable.
+- **Benjamin**'s strength lies in the middle of his race and his start has almost no effect on his final time.
+- **dos Santos** relies on the first half of the race manages to adapt under pressure despite his position in the race.
+
+**View the full analysis and project in the [Interactive Dashboard README](PowerBI_Analysis/README.md)**.
+
+# Sources of Error (UNDER CONSTRUCTION)
+Because of the data and methods used during this project, some of the findings may not fully reflect actual race tactics or progressions.
+- Limited Data: Used only a few races with stride patterns, doesn't show progression
+- Blanks: A few splits were blank so they had to be filled in through predictions
+- Only used three athletes:
+
 
 # Conclusion
+Under construction!

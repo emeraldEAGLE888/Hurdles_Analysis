@@ -27,8 +27,8 @@ Specifically, the **Split to Total Time Correlations** graph on the **Athlete Fo
 
 ### Karsten Warholm
 ![Warholm Split Correlations](/Images/correlations_warholm.png)
+
 **Top 3 Splits for Prediction**: **H9**, **H8**, **H6**
-**Average R² Value**: **0.456**
 
 ### Insights
 - Warholm's most predictive splits mostly come in the final third of his race. Specifically, his splits at **Hurdle 8** and **Hurdle 9** correlate the most to his final time (each having a R² value of over 0.6).
@@ -38,22 +38,24 @@ Specifically, the **Split to Total Time Correlations** graph on the **Athlete Fo
 
 ### Rai Benjamin
 ![Benjamin Split Correlations](/Images/correlations_benjamin.png)
+
 **Top 3 Splits for Prediction**: **H5**, **H8**, **H7**
-**Average R² Value**: **0.237**
 
 ### Insights
 - Benjamin's most predictive splits are significantly stacked into the middle of his race (**H5-H8**), with the top split being **Hurdle 5**. Benjamin's other splits have very little correlation with his final time.
 - This reveals Benjamin's consistency lies in the middle of his race; if he is able to stay with the competition or make up ground on them here, it will lead to a better final performance. 
 - Correlation drops off steeply at **Hurdle 9**, showing that most of Benjamin's work is done before the final stages of the race.
 - Notably, Benjamin's **Hurdle 1** split has virtually no correlation to his final time. Regardless of how fast he gets to the first hurdle, Benjamin has the capability to put up an exceptional performance.
-- Benjamin's average value of **0.237** is extremely low and highlights how adaptive he is during the race, especially during the first half where he may chop his steps or make another mistake.
+- Benjamin's average R² value of **0.237** is extremely low and highlights how adaptive he is during the race, especially during the first half where he may chop his steps or make another mistake.
 
 ### Alison dos Santos
 ![dos Santos Split Correlations](/Images/correlations_dossantos.png)
+
 **Top 3 Splits for Prediction**: **H2**, **H4**, **H5**
-**Average R² Value**: **0.315**
 
 ### Insights
 - dos Santos' most predictive splits vary but lean more towards the front half of his race. His top 2 splits of **Hurdle 2** and **Hurdle 4** show his reliance on good performance in the beginning of the race. 
 - dos Santos has 6 splits (**H1, H2, H4, H5, H8, and H9**) that lie above the average R² value, with **H3, H6, and H7** interestingly being under that threshold. 
 - The inconsistency in R² values as well as a relatively low average value (**0.315**) highlight dos Santos' ability to recover from a misstep or other mistake. 
+
+See summary of analysis and conclusion in **[main README](C:/Users/sunse/Hurdles_Analysis/README.md)**.

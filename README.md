@@ -45,7 +45,7 @@ Throughout this project, several tools and libraries were utilized in order to c
 
 *Visualization showing yearly trends for each athlete's race phases. Generated with Python libraries [Matplotlib, Seaborn].*
 
-![Stride Patterns Distribution](Images\normal_vs_changed_stride_distributions.png)
+![Stride Patterns Distribution](Images/normal_vs_changed_stride_distributions.png)
 
 *Visualization showing distribution of times utilizing either normal or altered stride patterns. Generated with Python libraries [Matplotlib, Seaborn].*
 

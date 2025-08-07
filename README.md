@@ -41,15 +41,15 @@ Throughout this project, several tools and libraries were utilized in order to c
 - **Github**: Used for version control and to share the analysis publicly
 
 # Results (Featured Graphs)
-![Year Over Year Phases](/Images/phases_yoy.png)
+![Year Over Year Phases](Images/phases_yoy.png)
 
 *Visualization showing yearly trends for each athlete's race phases. Generated with Python libraries [Matplotlib, Seaborn].*
 
-![Stride Patterns Distribution](/Images\normal_vs_changed_stride_distributions.png)
+![Stride Patterns Distribution](Images\normal_vs_changed_stride_distributions.png)
 
 *Visualization showing distribution of times utilizing either normal or altered stride patterns. Generated with Python libraries [Matplotlib, Seaborn].*
 
-![Main Dashboard](/Images/hurdle_dash_page1.png)
+![Main Dashboard](Images/hurdle_dash_page1.png)
 
 *The main page of the interactive 400 hurdles dashboard, displaying key stats and visualizations on race splits and yearly trends. Created using Power BI.*
 

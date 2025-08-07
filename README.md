@@ -69,7 +69,7 @@ Throughout this project, several tools and libraries were utilized in order to c
 ### Yearly Progression
 - Each athlete has seen a significant decrease in **start and middle phases**, but have struggled to decrease their time in the **end phase**.
 
-### **View the full analysis and project in the [Hurdle Analysis README](Python_Analysis/README.md)**.
+### **View the full analysis and project in the [Hurdle Analysis Section](Python_Analysis)**.
 
 ## From Power BI
 
@@ -78,7 +78,7 @@ Throughout this project, several tools and libraries were utilized in order to c
 - **Benjamin**'s strength lies in the middle of his race and his start has almost no effect on his final time.
 - **dos Santos** relies on the first half of the race manages to adapt under pressure despite his position in the race.
 
-### **View the full analysis and project in the [Interactive Dashboard README](PowerBI_Analysis/README.md)**.
+### **View the full analysis and project in the [Interactive Dashboard Section](PowerBI_Analysis)**.
 
 # Sources of Error
 Because of the data and methods used during this project, some of the findings may not fully reflect actual race tactics or progressions.

@@ -58,4 +58,4 @@ Specifically, the **Split to Total Time Correlations** graph on the **Athlete Fo
 - dos Santos has 6 splits (**H1, H2, H4, H5, H8, and H9**) that lie above the average R² value, with **H3, H6, and H7** interestingly being under that threshold. 
 - The inconsistency in R² values as well as a relatively low average value (**0.315**) highlight dos Santos' ability to recover from a misstep or other mistake. 
 
-See summary of analysis and conclusion in **[main README](C:/Users/sunse/Hurdles_Analysis/README.md)**.
+### See summary of analysis and conclusion in **[main README](C:/Users/sunse/Hurdles_Analysis/README.md)**.

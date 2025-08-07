@@ -233,4 +233,4 @@ plt.show()
 - **Stride pattern consistency** also improved for all three athletes, especially in seasons with better performances
 - All athletes' **start phase** and **middle phase** average times have gone down with total time but **end phase** averages are less consistent, rising as a result of early-race time drops
 
-See summary of analysis and conclusion in **[main README](C:/Users/sunse/Hurdles_Analysis/README.md)**.
+### See summary of analysis and conclusion in **[main README](C:/Users/sunse/Hurdles_Analysis/README.md)**.
